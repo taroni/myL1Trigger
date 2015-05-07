@@ -1,0 +1,48 @@
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw-patch/CMSSW_5_3_9_patch3/python/FWCore/ParameterSet/Config.py:434: DeprecationWarning: Configuration.StandardSequences.GeometryPilot2_cff is deprecated, please use Configuration.Geometry.GeometryPilot2_cff
+  module = __import__(moduleName)
+/grid_mnt/vol__vol_U__u/llr/cms/antropov/CMSSW_539p3L1EG/python/EGamma/ECGelec/HzzIsolationSequences_cff.py:3: DeprecationWarning: Configuration.StandardSequences.GeometryIdeal_cff is deprecated, please use Configuration.Geometry.GeometryIdeal_cff
+  from Configuration.StandardSequences.GeometryIdeal_cff import *
+07-Apr-2015 19:55:40 CEST  Initiating request to open file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+07-Apr-2015 19:55:41 CEST  Successfully opened file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+ ============================================================================= 
+ Running Skimming TP_nadir with EleID VBTF95
+ ============================================================================= 
+07-Apr-2015 19:55:43 CEST  Closed file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           BeforeEvents                      
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
+
+======================================
+ N initial event          = 0
+ N 1 Lepton skimmed event = 0
+ N 2 Lepton skimmed event = 0
+ N 2 Lepton TP skimmed event = 0
+ N 2 Lepton TP nadir-skimmed event = 0
+ N 3 Lepton skimmed event = 0
+ N ML skimmed event       = 0
+ N ep skimmed event       = 0
+ N old skimmed event      = 0
+
+ Eff 1 lepton skim   = 0
+ Eff 2 lepton skim   = 0
+ Eff 2 leptonTP skim   = 0
+ Eff 2 leptonTP nadir skim   = 0
+ Eff 3 lepton skim   = 0
+ Eff ML skim         = 0
+ Eff EP skim         = 0
+ Eff old skim        = 0

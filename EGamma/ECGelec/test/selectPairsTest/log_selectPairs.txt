@@ -1,0 +1,108 @@
+will process 3183/3183 pairs
+<------ File : /home/llr/cms/antropov/CMSSW_539p3L1EG/src/EGamma/ECGelec/test/elepairs_0.root ------>
+
+---- nRun=190482 ----
+
+---- nRun=190661 ----
+
+---- nRun=190706 ----
+
+---- nRun=191046 ----
+
+---- nRun=191271 ----
+-----------------------------------------------------------------------------------------
+
+-- nEvent=344473867 -- nLumi=315 --
+HLT : unbias:0 | EG2:0 | EG5:0 | EG8:0 | EG12:0 | EG12old:0 | Ele15:0 | Ele17:0 | Ele8calIso:0 | Ele8tkIso:0 | 
+ISO            NONISO        ISO_M         NONISO_M         preISO       preNonIso       postIso       postNonIso
+(9;14)=63      (0;0)=0      (9;14)=63      (0;0)=0      
+(17;4)=3      (0;0)=0      (17;4)=3      (0;0)=0      
+(6;6)=2      (0;0)=0      (6;6)=2      (0;0)=0      
+(8;13)=1      (0;0)=0      (8;13)=1      (0;0)=0      
+
+Pair M=89.3104
+ONLINE/EMULATOR = SAME
+TAG : eta=-0.516212 phi=-1.48765 pT=64.5739 eT=64.5739 RCTeta=9 RCTphi=14 cuts=WP60
+Fired EG : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+Fired EG M : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+PROBE : eta=-1.04981 phi=1.54527 pT=28.8622 eT=28.8622 RCTeta=8 RCTphi=4 cuts=WP95
+Fired EG : 
+Fired EG M : 
+PROBE IN EB
+
+MASKING
+
+
+------------------------------------------------------------------------------------------------
+
+---- nRun=190646 ----
+
+---- nRun=191090 ----
+
+---- nRun=191700 ----
+-----------------------------------------------------------------------------------------
+
+-- nEvent=601799069 -- nLumi=589 --
+HLT : unbias:0 | EG2:0 | EG5:0 | EG8:0 | EG12:0 | EG12old:0 | Ele15:0 | Ele17:0 | Ele8calIso:0 | Ele8tkIso:0 | 
+ISO            NONISO        ISO_M         NONISO_M         preISO       preNonIso       postIso       postNonIso
+(12;9)=63      (7;4)=2      (12;9)=63      (0;0)=0      
+(12;14)=7      (0;0)=0      (13;16)=11      (0;0)=0      
+(12;13)=3      (0;0)=0      (12;14)=8      (0;0)=0      
+(10;4)=2      (0;0)=0      (13;17)=6      (0;0)=0      
+
+Pair M=90.8308
+ONLINE/EMULATOR = DIFFERENT
+TAG : eta=0.57311 phi=-3.06446 pT=69.0006 eT=69.0006 RCTeta=12 RCTphi=9 cuts=WP60
+Fired EG : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+Fired EG M : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+PROBE : eta=-1.07878 phi=1.43954 pT=20.5363 eT=20.5363 RCTeta=7 RCTphi=4 cuts=WP95
+Fired EG : EG0 EG1 EG2 
+Fired EG M : 
+PROBE IN EB
+
+MASKING
+
+
+------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+-- nEvent=621616737 -- nLumi=615 --
+HLT : unbias:0 | EG2:0 | EG5:0 | EG8:0 | EG12:0 | EG12old:0 | Ele15:0 | Ele17:0 | Ele8calIso:0 | Ele8tkIso:0 | 
+ISO            NONISO        ISO_M         NONISO_M         preISO       preNonIso       postIso       postNonIso
+(12;7)=2      (10;15)=38      (10;15)=39      (0;0)=0      
+(10;5)=1      (0;0)=0      (12;7)=2      (0;0)=0      
+(10;17)=1      (0;0)=0      (10;5)=1      (0;0)=0      
+(10;0)=1      (0;0)=0      (10;17)=1      (0;0)=0      
+
+Pair M=91.8862
+ONLINE/EMULATOR = SAME
+TAG : eta=-0.205104 phi=-0.962112 pT=44.1219 eT=44.1219 RCTeta=10 RCTphi=15 cuts=WP80
+Fired EG : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+Fired EG M : EG0 EG1 EG2 EG3 EG4 EG5 EG6 EG7 EG8 EG9 EG10 EG11 EG12 EG13 EG14 EG15 EG16 EG17 EG18 EG19 EG20 EG21 EG22 EG23 EG24 EG25 EG26 EG27 EG28 EG29 EG30 
+PROBE : eta=0.918249 phi=1.85672 pT=36.1253 eT=36.1253 RCTeta=13 RCTphi=5 cuts=WP80
+Fired EG : 
+Fired EG M : 
+PROBE IN EB
+
+MASKING
+
+
+------------------------------------------------------------------------------------------------
+
+---- nRun=191226 ----
+
+---- nRun=191830 ----
+
+---- nRun=191834 ----
+
+---- nRun=193124 ----
+
+---- nRun=193193 ----
+
+
+--------------- RESULTS --------------------
+nCases = 3 | nCases SAME = 2 | nCases DIFF = 1
+nToBeZeroed = 0 | nZeroed = 0 | nNotZeroed = 0
+nEB_NotToZero_Zeroed = 0 | nEE_NotToZero_Zeroed = 0
+n_fails_fidu = 0
+---------------------------------------------

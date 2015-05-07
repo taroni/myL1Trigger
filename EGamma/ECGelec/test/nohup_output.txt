@@ -1,0 +1,98 @@
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw-patch/CMSSW_5_3_9_patch3/python/FWCore/ParameterSet/Config.py:434: DeprecationWarning: Configuration.StandardSequences.GeometryPilot2_cff is deprecated, please use Configuration.Geometry.GeometryPilot2_cff
+  module = __import__(moduleName)
+/grid_mnt/vol__vol_U__u/llr/cms/antropov/CMSSW_539p3L1EG/python/EGamma/ECGelec/HzzIsolationSequences_cff.py:3: DeprecationWarning: Configuration.StandardSequences.GeometryIdeal_cff is deprecated, please use Configuration.Geometry.GeometryIdeal_cff
+  from Configuration.StandardSequences.GeometryIdeal_cff import *
+07-Apr-2015 19:39:40 CEST  Initiating request to open file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+07-Apr-2015 19:39:41 CEST  Successfully opened file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+ ============================================================================= 
+ Running Skimming TP_nadir with EleID VBTF95
+ ============================================================================= 
+
+%MSG-e RunLumiMerging:  AfterSource 07-Apr-2015 19:39:45 CEST PostBeginRun
+Group::mergeGroup
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 1st record. Run 190482, Event 89335887, LumiSection 148 at 07-Apr-2015 19:39:45.720 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 2nd record. Run 190482, Event 89190114, LumiSection 148 at 07-Apr-2015 19:39:56.897 CEST
+test
+test
+Begin processing the 3rd record. Run 190482, Event 88848606, LumiSection 148 at 07-Apr-2015 19:39:57.419 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 4th record. Run 190482, Event 89141159, LumiSection 148 at 07-Apr-2015 19:39:57.954 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 5th record. Run 190482, Event 89385244, LumiSection 148 at 07-Apr-2015 19:39:58.717 CEST
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 6th record. Run 190482, Event 90091383, LumiSection 149 at 07-Apr-2015 19:39:59.605 CEST
+test
+test
+Begin processing the 7th record. Run 190482, Event 89901453, LumiSection 149 at 07-Apr-2015 19:40:00.313 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 8th record. Run 190482, Event 18467348, LumiSection 61 at 07-Apr-2015 19:40:01.231 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+Begin processing the 9th record. Run 190482, Event 18604805, LumiSection 61 at 07-Apr-2015 19:40:01.989 CEST
+test
+test
+Begin processing the 10th record. Run 190482, Event 18621389, LumiSection 61 at 07-Apr-2015 19:40:02.644 CEST
+test
+test
+Number of primary vertices>15, vtx_N set to 15
+07-Apr-2015 19:40:03 CEST  Closed file file:/home/llr/cms/antropov/DoubleElectron/Run2012A-ZElectron-13Jul2012-v1/RAW-RECO/00663DF3-28DA-E111-966A-848F69FD4508.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 RunLumiMerging       -e AfterSource                            1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 RunLumiMerging       PostBeginRun                      
+    2 fileAction           PostEndRun                        
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Error                   1                   1
+System                  3                   3
+
+======================================
+ N initial event          = 10
+ N 1 Lepton skimmed event = 7
+ N 2 Lepton skimmed event = 10
+ N 2 Lepton TP skimmed event = 7
+ N 2 Lepton TP nadir-skimmed event = 7
+ N 3 Lepton skimmed event = 4
+ N ML skimmed event       = 10
+ N ep skimmed event       = 7
+ N old skimmed event      = 10
+
+ Eff 1 lepton skim   = 0.7
+ Eff 2 lepton skim   = 1
+ Eff 2 leptonTP skim   = 0.7
+ Eff 2 leptonTP nadir skim   = 0.7
+ Eff 3 lepton skim   = 0.4
+ Eff ML skim         = 1
+ Eff EP skim         = 0.7
+ Eff old skim        = 1

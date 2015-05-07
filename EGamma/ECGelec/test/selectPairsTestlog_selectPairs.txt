@@ -1,0 +1,9 @@
+will process 0/0 pairs
+
+
+--------------- RESULTS --------------------
+nCases = 0 | nCases SAME = 0 | nCases DIFF = 0
+nToBeZeroed = 0 | nZeroed = 0 | nNotZeroed = 0
+nEB_NotToZero_Zeroed = 0 | nEE_NotToZero_Zeroed = 0
+n_fails_fidu = 0
+---------------------------------------------
